@@ -31,6 +31,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import model.Model;
+
 public class MainWindowController {
 
     private Stage primaryStage;
@@ -69,7 +70,7 @@ public class MainWindowController {
                         return true;
                     }
 
-                    if (newValue == "5"){
+                    if (newValue == "5") {
                         return true;
                     }
 
