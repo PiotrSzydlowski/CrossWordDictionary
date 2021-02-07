@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="188.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="exitController.ExitWindowController" stylesheets="app.css">
+   <children>
+      <Label layoutX="64.0" layoutY="54.0" prefHeight="20.0" prefWidth="229.0" text="Dziękuję za skorzystanie z aplikacji">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ButtonBar layoutX="54.0" layoutY="115.0" prefHeight="40.0" prefWidth="238.0">
+        <buttons>
+          <Button minWidth="66.0" mnemonicParsing="false" onAction="#exitApp" prefHeight="6.0" styleClass="BUTTON" text="Koniec" />
+            <Button fx:id="closeButton" minWidth="66.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="25.0" prefWidth="149.0" text="Anuluj" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
