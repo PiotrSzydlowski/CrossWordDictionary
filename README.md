@@ -1,5 +1,4 @@
-# CrossWordDictionary
 # Słownik haseł krzyżówkowych
 
 
-![github-small](https://github.com/PiotrSzydlowski/CrossWordDictionary/issues/1#issue-880969588)
+![image](https://user-images.githubusercontent.com/46484603/117545087-9d577d80-b024-11eb-926e-629377f369c3.png)
